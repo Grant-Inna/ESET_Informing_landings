@@ -19,7 +19,7 @@ gulp.task('css', function() {
     return gulp.src('./style.scss')
         .pipe(sass().on('error', sass.logError)) // Turn scss file into css
         .pipe(autoprefixer({browsers: ['last 5 versions', '> 5%']}))
-        .pipe(gulp.dest('../css'))
+        .pipe(gulp.dest('../css/'))
         .pipe(notify('CSS Success!'));
 });
 
@@ -45,7 +45,7 @@ gulp.task('watch_jade', function() {
     gulp.watch('./*.jade', ['jade'])
 });
 
-gulp.task('default', ['css', 'jade', 'watch_jade', 'MINcss', 'watch_scss', 'watch_min']);
+gulp.task('default', ['css', 'MINcss', 'watch_scss', 'watch_min']);
 
 
 

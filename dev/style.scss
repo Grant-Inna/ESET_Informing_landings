@@ -1,12 +1,13 @@
 @import 'variables';
 
+
 *
 {
     box-sizing: border-box;
 }
 html
 {
-    font-size: 10px;
+    font-size: $fontSize_Main;
 }
 
 html,
@@ -24,7 +25,8 @@ body
 {
     font-size: 1rem;
 
-    color: $colorMain;
+  font-family: $text_FontFamily;
+  color: $textColor_Main;
 }
 
 a
@@ -44,10 +46,13 @@ p
 
     content: '';
 }
+
+
+
 .container
 {
-    font-family: Arial,sans-serif;
-    font-size: 1em;
+
+    font-size: 1rem;
     line-height: 1.42;
 
     position: relative;
@@ -57,8 +62,14 @@ p
     width: 100%;
     height: 100%;
 
-    /*background: white url(../img/bg_tiny.jpg) center no-repeat;*/
-    background-size: cover;
+    background: $background_STARTColor;
+    background: -moz-linear-gradient(45deg, $background_STARTColor 0%, $background_STOPColor 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, $background_STARTColor), color-stop(100%, $background_STOPColor));
+    background: -webkit-linear-gradient(45deg, $background_STARTColor 0%, $background_STOPColor 100%);
+    background: -o-linear-gradient(45deg, $background_STARTColor 0%, $background_STOPColor 100%);
+    background: -ms-linear-gradient(45deg, $background_STARTColor 0%, $background_STOPColor 100%);
+    background: linear-gradient(45deg, $background_STARTColor 0%, $background_STOPColor 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$skyGrey, endColorstr=$lightConcrete, GradientType=1 );
 }
 .wrapper {
   position: relative;
@@ -66,26 +77,59 @@ p
   display: flex;
   flex-direction: column;
 
-  width: 100%;
-  max-width: 1050px;
-  height: $wrapperHeight;
+  width: 80%;
+  height: $height_Wrapper;
   margin: 0 auto;
+  max-width: 1050px;
 
   background-size: cover;
 
   justify-content: space-between;
 }
 
+.header {
+  height: $height_Header;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+.headerLogo__wrapper {
+  width: $width_headerLogoWrapper;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerLogo__logo {
+  width: $width_Logo;
+  height: 60px;
+  
+  background: url("../img/logo.png") no-repeat;
+  background-size: contain;
+
+}
+.headerLogo__tagline {
+  width: $width_Tagline;
+  font-family: $taglineText_FontFamily;
+
+
+  font-size: 2rem;
+}
 
 .main
 {
     display: flex;
     flex-direction: column;
+  justify-content: space-around;
+  background: #fff url(../img/android1.png) right bottom no-repeat;
 
-    width: 100%;
+  width: 100%;
     height: 100%;
 
-    justify-content: space-around;
+
+  border-radius: 5px;
+
 }
 
 /*                 MAIN INFO                       */
@@ -104,12 +148,12 @@ p
 
     width: 100%;
     max-width: 1050px;
-    height: $footerHeight;
+    height: $height_Footer;
     margin: 0 auto;
 
     text-align: center;
 
-    background: $colorFooter;
+
 
     justify-content: center;
 }

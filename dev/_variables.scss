@@ -1,53 +1,40 @@
+@import "colorsArchive";
+@import "font";
 
 /*   TEXT   */
-$text_FontFamily: Arial,sans-serif;
+$text_FontFamily: "Fedra Sans Book", sans-serif;
+$taglineText_FontFamily: "Fedra Sans Bold", sans-serif;
 $textColor_Main: #efeeee;
 
-/*   BACKGROUND   */
-$backgroundMain_Color: white;
-$backgroundMain_Img: url(../img/vert_back.jpg);
-$backgroundMain_Position-x: center;
-$backgroundMain_Position-y: center;
+/*   TEXT SIZE   */
+$fontSize_Main: 10px;
+$fontSize_Header: ($fontSize_Main * 2)rem;
+$fontSize_Footer: 10px;
 
-$backgroundMain_Img:
-$backgroundMain_Color
-$backgroundMain_Img
-$backgroundMain_Position-x
-$backgroundMain_Position-y
-no-repeat;
+/*   BACKGROUND   */
+
+$background_STARTColor: $dark-matedBlue;
+$background_STOPColor: $lightConcreteRGB;
+
 
 /*   COLORS  */
-
-$colorBlack: #2b2b2b;
-
-$colorMain: #016990;
-
-$colorMainDark: $colorMain - 20;
-$colorMainVeryDark: $colorMain - 60;
-
-$colorHeader: rgba(255, 255, 255, .85);
-$colorFooter: rgba(1, 105, 144, .7);
-
-$colorWhiteBG: rgba(239, 238, 238, .6);
-$colorBG: rgba(1, 105, 144, .1);
-$colorDarkerBG: rgba(1, 105, 144, .4);
 
 
 
 /*   SIZE   */
 
 
+/* HEIGHT */
 $height_Footer: 18%;
-$height_Header: 20%;
-$height_Wrapper: (100% - $height_Footer - $height_Header);
+$height_Header: 15%;
+$height_Wrapper: (100% - $height_Footer);
 
 $height_Logo: 50%;
 
-/*   TEXT SIZE   */
-
-$fontSize_Main: 10px;
-$fontSize_Header: ($fontSize_Main * 2)rem;
-$fontSize_Footer: 10px;
+/* WIDTH */
+$width_headerLogoWrapper: 45%;
+$width_Logo: 35%;
+$width_Tagline: 60%;
 
 
 
