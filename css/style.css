@@ -207,12 +207,23 @@ p {
   .main {
     background-size: 35%; } }
 
+@media screen and (max-width: 740px) {
+  .headerLogo__wrapper {
+    width: 85%; }
+  .header {
+    height: 25%; }
+  .headerLogo__logo {
+    width: 40%;
+    height: 60px; } }
+
 @media screen and (max-width: 670px) {
   .wrapper {
     width: 90%;
     height: 70%; }
   .header {
-    height: 30%; } }
+    height: 30%; }
+  .headerLogo__wrapper {
+    width: 85%; } }
 
 @media screen and (max-width: 570px) and (orientation: landscape) {
   .header {

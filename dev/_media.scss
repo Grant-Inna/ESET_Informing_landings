@@ -40,6 +40,19 @@ $darkTurquoise: #00717f;
 @media screen and (max-width: 740px)  /* iPhone 6 Plump landscape · width: 736px */
 {
 
+  .headerLogo__wrapper {
+    width: 85%;
+  }
+
+  .header {
+    height: 25%;
+  }
+
+  .headerLogo__logo {
+    width: 40%;
+    height: 60px;
+  }
+
 }
 
 @media screen and (max-width: 670px)  /* iPhone 6 landscape · width: 667px */
@@ -51,6 +64,9 @@ $darkTurquoise: #00717f;
 
   .header {
     height: 30%;
+  }
+  .headerLogo__wrapper {
+    width: 85%;
   }
 
 }
