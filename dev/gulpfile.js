@@ -11,8 +11,8 @@ var gulp = require('gulp'),
 gulp.task('jade', function() {
     return gulp.src('./*.jade')
         .pipe(jade())
-        .pipe(rename("./index.jade.html"))
-        .pipe(gulp.dest('./'))
+        .pipe(rename("index.html"))
+        .pipe(gulp.dest('../'))
         .pipe(notify('Jade Success!'));
 });
 gulp.task('css', function() {
