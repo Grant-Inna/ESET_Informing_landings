@@ -1,0 +1,60 @@
+					<!--START FOOTER--> 
+				</div>
+				<p class="footer__text-block" id="trig-footer"></p>
+			</footer>
+		</div>
+
+		<script>
+			document.getElementById('template-button-name-pilot').innerHTML = "Смотреть";
+
+			var mts_info_block = document.getElementById('template-caption-pilot').innerHTML;
+			document.getElementById('trig-footer').innerHTML =  mts_info_block;
+
+			var bottombar = document.getElementById('footer');		
+
+			function iOSversion() {
+				if ( (/iP(hone|od|ad)/.test(navigator.platform)) && (navigator.appVersion.match(/Safari/i)) ) {
+					var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+					return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+				} else { return false; }
+			}
+
+			ver = iOSversion();
+
+			if ((navigator.vendor.indexOf('Apple') > -1) && (!navigator.userAgent.match('CriOS'))) {
+				if ( (ver[0] >= 10) && (ver[1] >= 3 ) ) {
+					// alert('This is running iOS 10.3.1 or later.');
+					window.addEventListener("orientationchange", function() {
+						document.ontouchmove = function (e) {
+							return true;
+						}
+
+						if (window.matchMedia("(orientation: landscape)").matches) {
+							bottombar.style.bottom = 0;
+							window.onscroll = function() {
+
+								var oldWindowHeight = window.screen.width;
+								var windowHeight = window.innerHeight;
+
+								if ( oldWindowHeight > windowHeight ) {
+									bottombar.style.bottom = "11.5%";
+									document.ontouchmove = function (e) {
+										e.preventDefault();
+									}
+								}
+							}
+						}
+					}, false);
+
+					if (window.matchMedia("(orientation: landscape)").matches) {
+
+						document.ontouchmove = function (e) {
+							e.preventDefault();
+						}
+						bottombar.style.bottom = "11.5%";
+					}					
+				}
+			}
+		</script>	
+	</body>
+	</html>
