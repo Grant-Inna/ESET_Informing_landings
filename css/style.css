@@ -135,7 +135,7 @@ p {
 .headerLogo__logo {
   width: 35%;
   height: 60px;
-  background: url("../img/logo.png") no-repeat;
+  background: url("../img/logo.png") center no-repeat;
   background-size: contain; }
 
 .headerLogo__tagline {
@@ -184,6 +184,88 @@ p {
 
 .hide {
   display: none; }
+
+@media screen and (max-width: 1100px) and (orientation: landscape) {
+  .main {
+    background-size: 25%; } }
+
+@media screen and (min-width: 760px) and (orientation: portrait) {
+  .header {
+    height: 20%; }
+  .headerLogo__wrapper {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%; }
+  .headerLogo__logo {
+    height: 70px;
+    width: 40%; }
+  .headerLogo__tagline {
+    font-size: 3rem;
+    color: #00717f; }
+  .main {
+    background-size: 35%; } }
+
+@media screen and (min-width: 665px) {
+  .header {
+    height: 30%; } }
+
+@media screen and (min-width: 480px) {
+  .wrapper {
+    height: 70%; }
+  .footer {
+    height: 30%; }
+  .header {
+    height: 20%; }
+  .headerLogo__wrapper {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .headerLogo__logo {
+    width: 20%; }
+  .headerLogo__tagline {
+    font-size: 1.3rem;
+    color: #00717f; }
+  .main {
+    background-size: 25%; } }
+
+@media screen and (max-width: 415px) {
+  .headerLogo__wrapper {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%; }
+  .headerLogo__tagline {
+    font-size: 1.85rem;
+    color: #00717f; } }
+
+@media screen and (max-width: 380px) and (orientation: portrait) {
+  .headerLogo__wrapper {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%; }
+  .headerLogo__tagline {
+    font-size: 1.6rem;
+    color: #00717f; } }
+
+@media screen and (max-width: 350px) {
+  .headerLogo__wrapper {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .headerLogo__tagline {
+    font-size: 1.4rem;
+    color: #00717f; }
+  .main {
+    background-size: 25%; } }
 
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   body {
