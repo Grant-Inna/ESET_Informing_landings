@@ -3,7 +3,7 @@ Landings testing repo
 
 [Just Template](https://grant-inna.github.io/ESET_Informing_landings/)
 
-###Pages
+### Pages
 
 [Info](https://grant-inna.github.io/ESET_Informing_landings/lp/)
 
