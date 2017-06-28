@@ -208,12 +208,21 @@ p {
     background-size: 35%; } }
 
 @media screen and (max-width: 670px) {
+  .wrapper {
+    width: 90%;
+    height: 70%; }
   .header {
     height: 30%; } }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 570px) and (orientation: landscape) {
+  .header {
+    height: 25%; }
+  .headerLogo__wrapper {
+    width: 80%; }
   .headerLogo__logo {
-    width: 40%; } }
+    width: 25%; }
+  .main {
+    background-size: 20%; } }
 
 @media screen and (max-width: 480px) and (orientation: landscape) {
   .wrapper {

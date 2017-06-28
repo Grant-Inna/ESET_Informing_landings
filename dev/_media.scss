@@ -44,6 +44,10 @@ $darkTurquoise: #00717f;
 
 @media screen and (max-width: 670px)  /* iPhone 6 landscape · width: 667px */
 {
+  .wrapper {
+    width: 90%;
+    height: 70%;
+  }
 
   .header {
     height: 30%;
@@ -53,10 +57,17 @@ $darkTurquoise: #00717f;
 
 @media screen and (max-width: 570px) and (orientation: landscape) /* iPhone 5 landscape · width: 568px */
 {
+  .header {
+    height: 25%;
+  }
   .headerLogo__wrapper {
     width: 80%;
+  }
   .headerLogo__logo {
     width: 25%;
+  }
+  .main {
+    background-size: 20%;
   }
 }
 
