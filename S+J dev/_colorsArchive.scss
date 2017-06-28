@@ -1,0 +1,548 @@
+/*  ==============   COLORS ARCHIVE  ==============   */
+
+
+$SnowRGB:	rgb(255, 250, 250);
+$Snow: #FFFAFA;
+$GhostWhiteRGB:	rgb(248, 248, 255);
+$GhostWhite: #F8F8FF;
+$WhiteSmokeRGB: rgb(245, 245, 245);
+$WhiteSmoke: #F5F5F5;
+$GainsboroRGB:	rgb(220, 220, 220);
+$Gainsboro: #DCDCDC;
+$FloralWhiteRGB: rgb(255, 250, 240);
+$FloralWhite: #FFFAF0;
+$OldLaceRGB: rgb(253, 245, 230);
+$OldLace: #FDF5E6;
+$LinenRGB:	rgb(250, 240, 230);
+$Linen: #FAF0E6;
+$AntiqueWhiteFGB: rgb(250, 235, 215);
+$AntiqueWhite: #FAEBD7;
+$PapayaWhipRGB:	rgb(255, 239, 213);
+$PapayaWhip:	#FFEFD5;
+$BlanchedAlmondRGB: rgb(255, 235, 205);
+$BlanchedAlmond: #FFEBCD;
+$BisqueRGB:	rgb(255, 228, 196);
+$Bisque: #FFE4C4;
+
+/* YELLOW */
+$colorYellow0RGB: rgb(255, 255, 204);
+$colorYellow0: #FFFFCC;
+$colorYellow1RGB: rgb(255, 255, 153);
+$colorYellow1: #FFFF99;
+$colorYellow2RGB: rgb(255, 255, 102);
+$colorYellow2: #FFFF66;
+$colorYellow3RGB: rgb(255, 255, 51);
+$colorYellow3: #FFFF33;
+$colorYellow4RGB: rgb(255, 255, 0);
+$colorYellow4: #FFFF00;
+$colorYellow5RGB: rgb(204, 204, 0);
+$colorYellow5: #CCCC00;
+
+/* GOLDEN */
+$colorGoldenGolden0RGB: rgb(255, 204, 102);
+$colorGolden0: #FFCC66;
+$colorGolden1RGB: rgb(255, 204, 0);
+$colorGolden1: #FFCC00;
+$colorGolden2RGB: rgb(255, 204, 51);
+$colorGolden2: #FFCC33;
+$colorGolden3RGB: rgb(204, 153, 0);
+$colorGolden3: #CC9900;
+$colorGolden4RGB: rgb(204, 153, 51);
+$colorGolden4: #CC9933;
+$colorGolden5RGB: rgb(153, 102, 0);
+$colorGolden5: #996600;
+
+/* PEACH */
+$colorPeach0RGB: rgb(255, 153, 0);
+$colorPeach0: #FF9900;
+$colorPeach1RGB: rgb(255, 153, 51);
+$colorPeach1: #FF9933;
+$colorPeach2RGB: rgb(204, 153, 102);
+$colorPeach2: #CC9966;
+$colorPeach3RGB: rgb(204, 102, 0);
+$colorPeach3: #CC6600;
+$colorPeach4RGB: rgb(204, 102, 51);
+$colorPeach4: #996633;
+$colorPeach5RGB: rgb(102, 51, 0);
+$colorPeach5: #663300;
+
+/* ORANGE */
+$colorOrange0RGB: rgb(255, 204, 153);
+$colorOrange0: #FFCC99;
+$colorOrange1RGB: rgb(255, 153, 102);
+$colorOrange1: #FFCC99;
+$colorOrange2RGB: rgb(255, 102, 0);
+$colorOrange2: #FF6600;
+$colorOrange3RGB: rgb(204, 102, 51);
+$colorOrange3: #CC6633;
+$colorOrange4RGB: rgb(153, 51, 0);
+$colorOrange4: #993300;
+$colorOrange5RGB: rgb(102, 0, 0);
+$colorOrange5: #660000;
+
+/* RED */
+$colorRed0RGB: rgb(255, 102, 51);
+$colorRed0: #FF6633;
+$colorRed1RGB: rgb(204, 51, 0);
+$colorRed1: #FF6633;
+$colorRed2RGB: rgb(255, 51, 0);
+$colorRed2: #FF3300;
+$colorRed3RGB: rgb(255, 0, 0);
+$colorRed3: #FF0000;
+$colorRed4RGB: rgb(204, 0, 0);
+$colorRed4: #CC0000;
+$colorRed5RGB: rgb(153, 0, 0);
+$colorRed5: #990000;
+
+/* RED-LIGHT */
+$colorRed-Light0RGB: rgb(255, 204, 204);
+$colorRed-Light0: #FFCCCC;
+$colorRed-Light1RGB: rgb(255, 153, 153);
+$colorRed-Light1: #FF9999;
+$colorRed-Light2RGB: rgb(255, 102, 102);
+$colorRed-Light2: #FF6666;
+$colorRed-Light3RGB: rgb(255, 51, 51);
+$colorRed-Light3: #FF3333;
+$colorRed-Light4RGB: rgb(255, 0, 51);
+$colorRed-Light4: #FF0033;
+$colorRed-Light5RGB: rgb(204, 0, 51);
+$colorRed-Light5: #CC0033;
+
+/* RED-BROWN */
+$colorRed-Brown0RGB: rgb(204, 153, 153);
+$colorRed-Brown0: #CC9999;
+$colorRed-Brown1RGB: rgb(204, 102, 102);
+$colorRed-Brown1: #CC6666;
+$colorRed-Brown2RGB: rgb(204, 51, 51);
+$colorRed-Brown2: #CC3333;
+$colorRed-Brown3RGB: rgb(153, 51, 51);
+$colorRed-Brown3: #993333;
+$colorRed-Brown4RGB: rgb(153, 0, 51);
+$colorRed-Brown4: #990033;
+$colorRed-Brown5RGB: rgb(51, 0, 0);
+$colorRed-Brown5: #330000;
+
+/* PINK */
+$colorPink0RGB: rgb(255, 102, 153);
+$colorPink0: #FF6699;
+$colorPink1RGB: rgb(255, 51, 102);
+$colorPink1: #FF3366;
+$colorPink2RGB: rgb(255, 0, 102);
+$colorPink2: #FF0066;
+$colorPink3RGB: rgb(204, 51, 102);
+$colorPink3: #CC3366;
+$colorPink4RGB: rgb(153, 102, 102);
+$colorPink4: #996666;
+$colorPink5RGB: rgb(102, 51, 51);
+$colorPink5: #663333;
+
+
+/* RED-PURPLE */
+$colorRed-Purple0RGB: rgb(255, 153, 204);
+$colorRed-Purple0: #FF99CC;
+$colorRed-Purple1RGB: rgb(255, 51, 153);
+$colorRed-Purple1: #FF3399;
+$colorRed-Purple2RGB: rgb(255, 0, 153);
+$colorRed-Purple2: #FF0099;
+$colorRed-Purple3RGB: rgb(204, 0, 102);
+$colorRed-Purple3: #CC0066;
+$colorRed-Purple4RGB: rgb(153, 51, 102);
+$colorRed-Purple4: #993366;
+$colorRed-Purple5RGB: rgb(102, 0, 51);
+$colorRed-Purple5: #660033;
+
+/* PINK-PURPLE */
+$colorPink-Purple0RGB: rgb(255, 102, 204);
+$colorPink-Purple0: #FF66CC;
+$colorPink-Purple1RGB: rgb(255, 0, 204);
+$colorPink-Purple1: #FF00CC;
+$colorPink-Purple2RGB: rgb(255, 51, 204);
+$colorPink-Purple2: #FF33CC;
+$colorPink-Purple3RGB: rgb(204, 102, 153);
+$colorPink-Purple3: #CC6699;
+$colorPink-Purple4RGB: rgb(204, 0, 153);
+$colorPink-Purple4: #CC0099;
+$colorPink-Purple5RGB: rgb(153, 0, 102);
+$colorPink-Purple5: #990066;
+
+/* PURPLE-LIGHT */
+$colorPurple-Light0RGB: rgb(255, 204, 255);
+$colorPurple-Light0: #FFCCFF;
+$colorPurple-Light1RGB: rgb(255, 153, 255);
+$colorPurple-Light1: #FF99FF;
+$colorPurple-Light2RGB: rgb(255, 102, 255);
+$colorPurple-Light2: #FF66FF;
+$colorPurple-Light3RGB: rgb(255, 51, 255);
+$colorPurple-Light3: #FF33FF;
+$colorPurple-Light4RGB: rgb(255, 0, 255);
+$colorPurple-Light4: #FF00FF	;
+$colorPurple-Light5RGB: rgb(204, 51, 153);
+$colorPurple-Light5: #CC3399;
+
+/* PURPLE-DARK */
+$colorPurple-Dark0RGB: rgb(204, 153, 204);
+$colorPurple-Dark0: #CC99CC;
+$colorPurple-Dark1RGB: rgb(204, 102, 204);
+$colorPurple-Dark1: #CC66CC;
+$colorPurple-Dark2RGB: rgb(204, 0, 204);
+$colorPurple-Dark2: #CC00CC;
+$colorPurple-Dark3RGB: rgb(204, 51, 204);
+$colorPurple-Dark3: #CC33CC;
+$colorPurple-Dark4RGB: rgb(153, 0, 153);
+$colorPurple-Dark4: #990099	;
+$colorPurple-Dark5RGB: rgb(153, 51, 153);
+$colorPurple-Dark5: #993399;
+
+/* PURPLE */
+$colorPurple0RGB: rgb(204, 102, 255);
+$colorPurple0: #CC66FF;
+$colorPurple1RGB: rgb(204, 51, 255);
+$colorPurple1: #CC33FF;
+$colorPurple2RGB: rgb(204, 0, 255);
+$colorPurple2: #CC00FF;
+$colorPurple3RGB: rgb(153, 0, 204);
+$colorPurple3: #9900CC;
+$colorPurple4RGB: rgb(153, 102, 153);
+$colorPurple4: #996699;
+$colorPurple5RGB: rgb(102, 0, 102);
+$colorPurple5: #660066;
+
+/* PURPLE-BLUE */
+$colorPurple-Blue0RGB: rgb(204, 153, 255);
+$colorPurple-Blue0: #CC99FF;
+$colorPurple-Blue1RGB: rgb(153, 51, 204);
+$colorPurple-Blue1: #9933CC;
+$colorPurple-Blue2RGB: rgb(153, 51, 255);
+$colorPurple-Blue2: #9933FF;
+$colorPurple-Blue3RGB: rgb(153, 0, 255);
+$colorPurple-Blue3: #9900FF;
+$colorPurple-Blue4RGB: rgb(102, 0, 153);
+$colorPurple-Blue4: #660099;
+$colorPurple-Blue5RGB: rgb(102, 51, 102);
+$colorPurple-Blue5: #663366;
+
+/* BLUE-PURPLE */
+$colorBlue-Purple0RGB: rgb(153, 102, 204);
+$colorBlue-Purple0: #9966CC;
+$colorBlue-Purple1RGB: rgb(153, 102, 255);
+$colorBlue-Purple1: #9966FF;
+$colorBlue-Purple2RGB: rgb(102, 0, 204);
+$colorBlue-Purple2: #6600CC;
+$colorBlue-Purple3RGB: rgb(102, 51, 204);
+$colorBlue-Purple3: #6633CC;
+$colorBlue-Purple4RGB: rgb(102, 51, 153);
+$colorBlue-Purple4: #663399;
+$colorBlue-Purple5RGB: rgb(51, 0, 51);
+$colorBlue-Purple5: #330033;
+
+/* PURPLE-LIGHT-BLUE */
+$colorPurple-Light-Blue0RGB: rgb(204, 204, 255);
+$colorPurple-Light-Blue0: #CCCCFF;
+$colorPurple-Light-Blue1RGB: rgb(153, 153, 255);
+$colorPurple-Light-Blue1: #9999FF;
+$colorPurple-Light-Blue2RGB: rgb(102, 51, 255);
+$colorPurple-Light-Blue2: #6633FF;
+$colorPurple-Light-Blue3RGB: rgb(102, 0, 255);
+$colorPurple-Light-Blue3: #6600FF;
+$colorPurple-Light-Blue4RGB: rgb(51, 0, 153);
+$colorPurple-Light-Blue4: #330099;
+$colorPurple-Light-Blue5RGB: rgb(51, 0, 102);
+$colorPurple-Light-Blue5: #330066;
+
+/* BLUE-GRAY */
+$colorBlue-Gray0RGB: rgb(153, 153, 204);
+$colorBlue-Gray0: #9999CC;
+$colorBlue-Gray1RGB: rgb(102, 102, 255);
+$colorBlue-Gray1: #6666FF;
+$colorBlue-Gray2RGB: rgb(102, 102, 204);
+$colorBlue-Gray2: #6666CC;
+$colorBlue-Gray3RGB: rgb(102, 102, 153);
+$colorBlue-Gray3: #666699;
+$colorBlue-Gray4RGB: rgb(51, 51, 153);
+$colorBlue-Gray4: #333399;
+$colorBlue-Gray5RGB: rgb(51, 51, 102);
+$colorBlue-Gray5: #333366;
+
+/* BLUE */
+$colorBlue0RGB: rgb(0, 102, 255);
+$colorBlue0: #0066FF;
+$colorBlue1RGB: rgb(0, 102, 204);
+$colorBlue1: #0066CC;
+$colorBlue2RGB: rgb(51, 102, 204);
+$colorBlue2: #3366CC;
+$colorBlue3RGB: rgb(0, 51, 255);
+$colorBlue3: #0033FF;
+$colorBlue4RGB: rgb(0, 51, 153);
+$colorBlue4: #003399;
+$colorBlue5RGB: rgb(0, 51, 102);
+$colorBlue5: #003366;
+
+/* BLUE-LIGHT */
+$colorBlue-Light0RGB: rgb(153, 204, 255);
+$colorBlue-Light0: #99CCFF;
+$colorBlue-Light1RGB: rgb(51, 153, 255);
+$colorBlue-Light1: #3399FF;
+$colorBlue-Light2RGB: rgb(0, 153, 255);
+$colorBlue-Light2: #0099FF;
+$colorBlue-Light3RGB: rgb(102, 153, 204);
+$colorBlue-Light3: #6699CC;
+$colorBlue-Light4RGB: rgb(51, 102, 153);
+$colorBlue-Light4: #336699;
+$colorBlue-Light5RGB: rgb(0, 102, 153);
+$colorBlue-Light5: #006699;
+
+$colorBlue-Light6RGB: rgb(51, 153, 204);
+$colorBlue-Light6: #3399CC;
+$colorBlue-Light7RGB: rgb(0, 153, 204);
+$colorBlue-Light7: #0099CC;
+
+/* BLUE-GREEN */
+$colorBlue-Green0RGB: rgb(153, 204, 204);
+$colorBlue-Green0: #99CCCC;
+$colorBlue-Green1RGB: rgb(102, 204, 204);
+$colorBlue-Green1: #66CCCC;
+$colorBlue-Green2RGB: rgb(51, 153, 153);
+$colorBlue-Green2: #339999;
+$colorBlue-Green3RGB: rgb(102, 153, 153);
+$colorBlue-Green3: #669999;
+$colorBlue-Green4RGB: rgb(0, 102, 102);
+$colorBlue-Green4: #006666;
+$colorBlue-Green5RGB: rgb(51, 102, 102);
+$colorBlue-Green5: #336666;
+
+
+/* BLUE-NEON */
+$colorBlue-Neon0RGB: rgb(204, 255, 255);
+$colorBlue-Neon0: #CCFFFF;
+$colorBlue-Neon1RGB: rgb(153, 255, 255);
+$colorBlue-Neon1: #99FFFF;
+$colorBlue-Neon2RGB: rgb(102, 255, 255);
+$colorBlue-Neon2: #66FFFF;
+$colorBlue-Neon3RGB: rgb(51, 255, 255);
+$colorBlue-Neon3: #33FFFF;
+$colorBlue-Neon4RGB: rgb(0, 255, 255);
+$colorBlue-Neon4: #00FFFF;
+$colorBlue-Neon5RGB: rgb(0, 204, 204);
+$colorBlue-Neon5: #00CCCC;
+
+/* AQUAMARINE-LIGHT*/
+$colorAquamarine-Light0RGB: rgb(153, 255, 204);
+$colorAquamarine-Light0: #99FFCC;
+$colorAquamarine-Light1RGB: rgb(102, 255, 204);
+$colorAquamarine-Light1: #66FFCC;
+$colorAquamarine-Light2RGB: rgb(51, 255, 204);
+$colorAquamarine-Light2: #33FFCC;
+$colorAquamarine-Light3RGB: rgb(0, 255, 204);
+$colorAquamarine-Light3: #00FFCC;
+$colorAquamarine-Light4RGB: rgb(51, 204, 204);
+$colorAquamarine-Light4: #33CCCC;
+$colorAquamarine-Light5RGB:rgb(0, 153, 153);
+$colorAquamarine-Light5: #009999;
+
+/* AQUAMARINE-DARK */
+$colorAquamarine-Dark0RGB: rgb(102, 204, 153);
+$colorAquamarine-Dark0: #66CC99;
+$colorAquamarine-Dark1RGB: rgb(51, 204, 153);
+$colorAquamarine-Dark1: #33CC99;
+$colorAquamarine-Dark2RGB: rgb(0, 204, 153);
+$colorAquamarine-Dark2: #00CC99;
+$colorAquamarine-Dark3RGB: rgb(51, 153, 102);
+$colorAquamarine-Dark3: #339966;
+$colorAquamarine-Dark4RGB: rgb(0, 153, 102);
+$colorAquamarine-Dark4: #009966;
+$colorAquamarine-Dark5RGB:rgb(0, 102, 51);
+$colorAquamarine-Dark5: #006633;
+
+/* AQUAMARINE */
+$colorAquamarine0RGB: rgb(102, 255, 153);
+$colorAquamarine0: #66FF99;
+$colorAquamarine1RGB: rgb(51, 255, 153);
+$colorAquamarine1: #33FF99;
+$colorAquamarine2RGB: rgb(0, 255, 153);
+$colorAquamarine2: #00FF99;
+$colorAquamarine3RGB: rgb(51, 204, 102);
+$colorAquamarine3: #33CC66;
+$colorAquamarine4RGB: rgb(0, 204, 102);
+$colorAquamarine4: #00CC66;
+$colorAquamarine5RGB:rgb(0, 153, 51);
+$colorAquamarine5: #009933;
+
+/* GREEN-PALE */
+$colorGreen-Pale0RGB: rgb(153, 255, 153);
+$colorGreen-Pale0: #99FF99;
+$colorGreen-Pale1RGB: rgb(102, 255, 102);
+$colorGreen-Pale1: #66FF66;
+$colorGreen-Pale2RGB: rgb(51, 255, 102);
+$colorGreen-Pale2: #33FF66;
+$colorGreen-Pale3RGB: rgb(0, 255, 102);
+$colorGreen-Pale3: #00FF66;
+$colorGreen-Pale4RGB: rgb(51, 153, 51);
+$colorGreen-Pale4: #339933;
+$colorGreen-Pale5RGB:rgb(0, 102, 0);
+$colorGreen-Pale5: #006600;
+
+/* GREEN-BOGGY */
+$colorGreen-Boggy0RGB: rgb(204, 255, 204);
+$colorGreen-Boggy0: #CCFFCC;
+$colorGreen-Boggy1RGB: rgb(153, 204, 153);
+$colorGreen-Boggy1: #99CC99;
+$colorGreen-Boggy2RGB: rgb(102, 204, 102);
+$colorGreen-Boggy2: #66CC66;
+$colorGreen-Boggy3RGB: rgb(102, 153, 102);
+$colorGreen-Boggy3: #669966;
+$colorGreen-Boggy4RGB: rgb(51, 102, 51);
+$colorGreen-Boggy4: #336633;
+$colorGreen-Boggy5RGB:rgb(0, 51, 0);
+$colorGreen-Boggy5: #003300;
+
+/* GREEN-NEON*/
+$colorGreen-Neon0RGB: rgb(102, 255, 0);
+$colorGreen-Neon0: #66FF00;
+$colorGreen-Neon1RGB: rgb(102, 255, 51);
+$colorGreen-Neon1: #66FF33;
+$colorGreen-Neon2RGB: rgb(51, 255, 0);
+$colorGreen-Neon2: #33FF00;
+$colorGreen-Neon3RGB: rgb(51, 204, 0);
+$colorGreen-Neon3: #33CC00;
+$colorGreen-Neon4RGB: rgb(51, 153, 0);
+$colorGreen-Neon4: #339900;
+$colorGreen-Neon5RGB:rgb(0, 153, 0);
+$colorGreen-Neon5: #009900;
+
+/* GREEN */
+$colorGreen0RGB: rgb(204, 255, 153);
+$colorGreen0: #CCFF99;
+$colorGreen1RGB: rgb(153, 255, 102);
+$colorGreen1: #99FF66;
+$colorGreen2RGB: rgb(102, 204, 0);
+$colorGreen2: #66CC00;
+$colorGreen3RGB: rgb(102, 204, 51);
+$colorGreen3: #66CC33;
+$colorGreen4RGB: rgb(102, 153, 51);
+$colorGreen4: #669933;
+$colorGreen5RGB:rgb(51, 102, 0);
+$colorGreen5: #336600;
+
+/* GREEN-DARK-YELLOW */
+$colorGreen-Dark-Yellow0RGB: rgb(153, 255, 0);
+$colorGreen-Dark-Yellow0: #99FF00;
+$colorGreen-Dark-Yellow1RGB: rgb(153, 255, 51);
+$colorGreen-Dark-Yellow1: #99FF33;
+$colorGreen-Dark-Yellow2RGB: rgb(153, 204, 102);
+$colorGreen-Dark-Yellow2: #99CC66;
+$colorGreen-Dark-Yellow3RGB: rgb(153, 204, 0);
+$colorGreen-Dark-Yellow3: #99CC00;
+$colorGreen-Dark-Yellow4RGB: rgb(153, 204, 51);
+$colorGreen-Dark-Yellow4: #99CC33;
+$colorGreen-Dark-Yellow5RGB:rgb(102, 153, 0);
+$colorGreen-Dark-Yellow5: #669900;
+
+/* GREEN-YELLOW */
+$colorGreen-Yellow0RGB: rgb(204, 255, 102);
+$colorGreen-Yellow0: #CCFF66;
+$colorGreen-Yellow1RGB: rgb(204, 255, 0);
+$colorGreen-Yellow1: #CCFF00;
+$colorGreen-Yellow2RGB: rgb(204, 244, 51);
+$colorGreen-Yellow2: #CCFF33;
+$colorGreen-Yellow3RGB: rgb(204, 204, 153);
+$colorGreen-Yellow3: #CCCC99;
+$colorGreen-Yellow4RGB: rgb(102, 102, 51);
+$colorGreen-Yellow4: #666633;
+$colorGreen-Yellow5RGB:rgb(51, 51, 0);
+$colorGreen-Yellow5: #333300;
+
+/* BROWN */
+$colorBrown0RGB: rgb(204, 204, 102);
+$colorBrown0: #CCCC66;
+$colorBrown1RGB: rgb(204, 204, 51);
+$colorBrown1: #CCCC33;
+$colorBrown2RGB: rgb(153, 153, 102);
+$colorBrown2: #999966;
+$colorBrown3RGB: rgb(153, 153, 51);
+$colorBrown3: #999933;
+$colorBrown4RGB: rgb(153, 153, 0);
+$colorBrown4: #999900;
+$colorBrown5RGB:rgb(102, 102, 0);
+$colorBrown5: #666600;
+
+/* WHITE/GRAY/BLACK */
+$colorGray0RGB: rgb(255, 255, 255);
+$colorGray0: #FFFFFF;
+$colorGray1RGB: rgb(204, 204, 204);
+$colorGray1: #CCCCCC;
+$colorGray2RGB: rgb(153, 153, 153);
+$colorGray2: #999999;
+$colorGray3RGB: rgb(102, 102, 120);
+$colorGray3: #666666;
+$colorGray4RGB: rgb(51, 51, 51);
+$colorGray4: #333333;
+$colorGray5RGB:rgb(0, 0, 0);
+$colorGray5: #000000;
+
+$colorGray232RGB: rgb(232, 232, 232);
+$colorGray232: #E8E8E8;
+$colorGray220RGB: rgb(220, 220, 220);
+$colorGray232: #DCDCDC;
+$colorGray181RGB: rgb(181, 181, 181);
+$colorGray181: #B5B5B5;
+$colorGray130RGB: rgb(130, 130, 130);
+$colorGray130: #828282;
+$colorGray79RGB: rgb(79, 79, 79);
+$colorGray79: #4F4F4F;
+$colorGray28RGB:rgb(28, 28, 28);
+$colorGray28: #1C1C1C;
+
+
+
+/* ============  OPTIONAL COLORS ============*/
+
+/* THISTLE */
+$colorThistle0RGB: rgb(255, 225, 255);
+$colorThistle0: #FFE1FF;
+$colorThistle1RGB: rgb(238, 210, 238);
+$colorThistle1: #EED2EE;
+$colorThistle2RGB: rgb(205, 181, 205);
+$colorThistle2: #CDB5CD;
+$colorThistle3RGB: rgb(139, 123, 139);
+$colorThistle3: #8B7B8B;
+
+/* BURLYWOOD */
+$colorBurlywood0RGB: rgb(255, 211, 155);
+$colorBurlywood0: #FFD39B;
+$colorBurlywood1RGB: rgb(238, 197, 145);
+$colorBurlywood1: #EEC591;
+$colorBurlywood2RGB: rgb(205, 170, 125);
+$colorBurlywood2: #CDAA7D;
+$colorBurlywood3RGB: rgb(139, 115, 85);
+$colorBurlywood3: #8B7355;
+
+/* WHEAT */
+$colorWheat0RGB: rgb(255, 237, 186);
+$colorWheat0: #FFE7BA;
+$colorWheat1RGB: rgb(238, 216, 174);
+$colorWheat1: #EED8AE;
+$colorWheat2RGB: rgb(205, 186, 150);
+$colorWheat2: #CDBA96;
+$colorWheat3RGB: rgb(139, 126, 102);
+$colorWheat3: #8B7E66;
+
+/* LEMON */
+$colorLemon0RGB: rgb(255, 250, 205);
+$colorLemon0: #FFFACD;
+$colorLemon1RGB: rgb(238, 233, 191);
+$colorLemon1: #EEE9BF;
+$colorLemon2RGB: rgb(205, 201, 165);
+$colorLemon2: #CDC9A5;
+$colorLemon3RGB: rgb(139, 137, 112);
+$colorLemon3: #8B8970;
+
+/* HONEYDEW */
+$colorHoneydew0RGB: rgb(240, 255, 240);
+$colorHoneydew0: #F0FFF0;
+$colorHoneydew1RGB: rgb(224, 238, 224);
+$colorHoneydew1: #E0EEE0;
+$colorHoneydew2RGB: rgb(193, 205, 193);
+$colorHoneydew2: #C1CDC1;
+$colorHoneydew3RGB: rgb(139, 131, 139);
+$colorHoneydew3: #838B83;
+

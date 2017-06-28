@@ -1,0 +1,147 @@
+$footerHeight: 18%;
+$wrapperHeight: (100% - $footerHeight);
+
+
+$totalsImgHeight: 50%;
+
+$colorBlue: #016990;
+$colorDarkBlue: $colorBlue - 20;
+$colorVeryDarkBlue: $colorBlue - 60;
+$colorHeader: rgba(255, 255, 255, .85);
+$colorFooter: rgba(1, 105, 144, .7);
+$colorMain: #efeeee;
+$colorWhiteBG: rgba(239, 238, 238, .6);
+$colorBlueBG: rgba(1, 105, 144, .1);
+$colorBlack: #2b2b2b;
+$colorDarkerBlueBG: rgba(1, 105, 144, .4);
+$colorOrange: #f90;
+
+$timeTransition: 5s;
+
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+}
+
+html,
+body
+{
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-size: 1rem;
+
+    color: $colorMain;
+}
+
+a
+{
+    color: inherit;
+}
+p
+{
+    -webkit-margin-before: .3em;
+    -webkit-margin-after: .5em;
+}
+.clearfix::after,
+.clearfix::before
+{
+    display: block;
+    clear: both;
+
+    content: '';
+}
+.container
+{
+    font-family: Arial,sans-serif;
+    font-size: 1em;
+    line-height: 1.42;
+
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    /*background: white url(../img/bg_tiny.jpg) center no-repeat;*/
+    background-size: cover;
+}
+.wrapper
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 1050px;
+    height: $wrapperHeight;
+    margin: 0 auto;
+
+    background-size: cover;
+
+    justify-content: space-between;
+
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: space-around;
+}
+
+/*                 MAIN INFO                       */
+
+
+
+/*                END OF MAIN INFO                       */
+
+
+
+.footer
+{
+    line-height: 10px;
+
+    display: flex;
+
+    width: 100%;
+    max-width: 1050px;
+    height: $footerHeight;
+    margin: 0 auto;
+
+    text-align: center;
+
+    background: $colorFooter;
+
+    justify-content: center;
+}
+
+.hide__content
+{
+    display: none;
+}
+.hide
+{
+    display: none;
+}
+
+
+
+
+@import 'media';

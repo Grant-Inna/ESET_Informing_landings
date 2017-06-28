@@ -1,0 +1,49 @@
+@media (device-height : 568px)
+and (device-width : 320px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation : landscape)
+  /* IPhone 5 ONLY (landscape) */
+{
+
+  body
+  {
+    position: fixed;
+    display: flex;
+
+    align-items: center;
+  }
+  .container
+  {
+    width: 568px;
+    height: 230px;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 375px) // or 213.4375em or 3in or 9cm
+and (max-device-width : 667px) // or 41.6875em
+and (width : 667px) // or 41.6875em
+and (height : 375px) // or 23.4375em
+and (orientation : landscape)
+and (color : 8)
+and (device-aspect-ratio : 375/667)
+and (aspect-ratio : 667/375)
+and (device-pixel-ratio : 2)
+and (-webkit-min-device-pixel-ratio : 2)
+{
+  /* iPhone 6 ONLY (landscape) */
+
+  body
+  {
+    display: flex;
+
+    align-items: center;
+  }
+  .container
+  {
+    width: 667px;
+    height: 275px;
+  }
+
+}
