@@ -1,22 +1,4 @@
-$footerHeight: 18%;
-$wrapperHeight: (100% - $footerHeight);
-
-
-$totalsImgHeight: 50%;
-
-$colorBlue: #016990;
-$colorDarkBlue: $colorBlue - 20;
-$colorVeryDarkBlue: $colorBlue - 60;
-$colorHeader: rgba(255, 255, 255, .85);
-$colorFooter: rgba(1, 105, 144, .7);
-$colorMain: #efeeee;
-$colorWhiteBG: rgba(239, 238, 238, .6);
-$colorBlueBG: rgba(1, 105, 144, .1);
-$colorBlack: #2b2b2b;
-$colorDarkerBlueBG: rgba(1, 105, 144, .4);
-$colorOrange: #f90;
-
-$timeTransition: 5s;
+@import 'variables';
 
 *
 {
@@ -78,21 +60,21 @@ p
     /*background: white url(../img/bg_tiny.jpg) center no-repeat;*/
     background-size: cover;
 }
-.wrapper
-{
-    position: relative;
+.wrapper {
+  position: relative;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    width: 100%;
-    max-width: 1050px;
-    height: $wrapperHeight;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1050px;
+  height: $wrapperHeight;
+  margin: 0 auto;
 
-    background-size: cover;
+  background-size: cover;
 
-    justify-content: space-between;
+  justify-content: space-between;
+}
 
 
 .main
@@ -144,4 +126,4 @@ p
 
 
 
-@import 'media';
+@import "media";
