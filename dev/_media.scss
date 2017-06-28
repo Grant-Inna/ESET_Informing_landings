@@ -15,7 +15,7 @@ $darkTurquoise: #00717f;
   }
 }
 
-@media screen and (min-width: 760px) and (orientation: portrait) /* iPad portrait · width: 768px */
+@media screen and (max-width: 770px) and (orientation: portrait) /* iPad portrait · width: 768px */
 {
   .header {
     height: 20%;
@@ -42,7 +42,7 @@ $darkTurquoise: #00717f;
 
 }
 
-@media screen and (min-width: 665px)  /* iPhone 6 landscape · width: 667px */
+@media screen and (max-width: 670px)  /* iPhone 6 landscape · width: 667px */
 {
 
   .header {
@@ -51,12 +51,16 @@ $darkTurquoise: #00717f;
 
 }
 
-@media screen and (max-width: 570px) /* iPhone 5 landscape · width: 568px */
+@media screen and (max-width: 570px) and (orientation: landscape) /* iPhone 5 landscape · width: 568px */
 {
-
+  .headerLogo__wrapper {
+    width: 80%;
+  .headerLogo__logo {
+    width: 25%;
+  }
 }
 
-@media screen and (min-width: 480px) /* iPhone 4 landscape · width: 480px */
+@media screen and (max-width: 480px) and (orientation: landscape) /* iPhone 4 landscape · width: 480px */
 {
   .wrapper {
     height: 70%;
@@ -69,14 +73,16 @@ $darkTurquoise: #00717f;
   }
   .headerLogo__wrapper {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   .headerLogo__logo {
     width: 20%
   }
   .headerLogo__tagline {
+    width: 40%;
     font-size: 1.3rem;
     color: $darkTurquoise;
+    text-align: end;
   }
   .main {
     background-size: 25%;
@@ -111,15 +117,20 @@ $darkTurquoise: #00717f;
 
 @media screen and (max-width: 350px) /* iPhone 5 landscape · width: 568px */
 {
+  .header {
+    height: 20%;
+  }
   .headerLogo__wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+  .headerLogo__logo {
+    width: 35%;
   }
   .headerLogo__tagline {
     font-size: 1.4rem;
     color: $darkTurquoise;
   }
-
   .main {
     background-size: 25%;
   }

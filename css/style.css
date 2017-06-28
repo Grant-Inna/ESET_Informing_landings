@@ -189,7 +189,7 @@ p {
   .main {
     background-size: 25%; } }
 
-@media screen and (min-width: 760px) and (orientation: portrait) {
+@media screen and (max-width: 770px) and (orientation: portrait) {
   .header {
     height: 20%; }
   .headerLogo__wrapper {
@@ -207,11 +207,15 @@ p {
   .main {
     background-size: 35%; } }
 
-@media screen and (min-width: 665px) {
+@media screen and (max-width: 670px) {
   .header {
     height: 30%; } }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 570px) {
+  .headerLogo__logo {
+    width: 40%; } }
+
+@media screen and (max-width: 480px) and (orientation: landscape) {
   .wrapper {
     height: 70%; }
   .footer {
@@ -220,15 +224,17 @@ p {
     height: 20%; }
   .headerLogo__wrapper {
     width: 100%;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
   .headerLogo__logo {
     width: 20%; }
   .headerLogo__tagline {
+    width: 40%;
     font-size: 1.3rem;
-    color: #00717f; }
+    color: #00717f;
+    text-align: end; }
   .main {
     background-size: 25%; } }
 
@@ -255,12 +261,16 @@ p {
     color: #00717f; } }
 
 @media screen and (max-width: 350px) {
+  .header {
+    height: 20%; }
   .headerLogo__wrapper {
     width: 100%;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .headerLogo__logo {
+    width: 35%; }
   .headerLogo__tagline {
     font-size: 1.4rem;
     color: #00717f; }
