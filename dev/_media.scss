@@ -11,6 +11,35 @@ $darkTurquoise: #00717f;
     height: 60px;
     border-radius: 6px;
   }
+  /*  LP  */
+  .lpMain__Title {
+    color: $darkTurquoise;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .lpMain__info {
+    border: none;
+  }
+  .lpMain__info-title {
+    font-size: 1.7rem;
+    text-align: center;
+
+    border-top: 1px solid #d6dbe1;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  .lpMain__item {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #d6dbe1;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .lpMain__item:before {
+    content: none;
+  }
+  .hideBR {
+    display: none;
+  }
 
 }
 

@@ -451,7 +451,29 @@ h2, h3, h4 {
     font-size: 3rem; }
   .subscribe__link, .subMain__link, .alreadySubMain__link {
     height: 60px;
-    border-radius: 6px; } }
+    border-radius: 6px; }
+  /*  LP  */
+  .lpMain__Title {
+    color: #00717f;
+    text-align: center;
+    font-size: 3rem; }
+  .lpMain__info {
+    border: none; }
+  .lpMain__info-title {
+    font-size: 1.7rem;
+    text-align: center;
+    border-top: 1px solid #d6dbe1;
+    margin-top: 5px;
+    padding-top: 5px; }
+  .lpMain__item {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #d6dbe1;
+    margin-bottom: 10px;
+    padding-bottom: 10px; }
+  .lpMain__item:before {
+    content: none; }
+  .hideBR {
+    display: none; } }
 
 @media screen and (min-width: 770px) and (max-width: 1100px) and (orientation: landscape) {
   .wrapper {
