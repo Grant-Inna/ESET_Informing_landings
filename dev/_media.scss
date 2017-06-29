@@ -10,8 +10,8 @@ $darkTurquoise: #00717f;
 
 @media screen and (max-width: 1100px) and (orientation: landscape) /* iPad landscape + iPad Pro portrait · width: 1024px */
 {
-  .main {
-    background-size: 25%;
+  .wrapper {
+    background-size: 20%;
   }
 }
 
@@ -32,8 +32,8 @@ $darkTurquoise: #00717f;
     font-size: 3rem;
     color: $darkTurquoise;
   }
-  .main {
-    background-size: 35%;
+  .wrapper {
+    background-size: 70%;
   }
 }
 
@@ -50,7 +50,7 @@ $darkTurquoise: #00717f;
 
   .headerLogo__logo {
     width: 40%;
-    height: 60px;
+    height: 45px;
   }
 
 }
@@ -59,7 +59,10 @@ $darkTurquoise: #00717f;
 {
   .wrapper {
     width: 90%;
-    height: 70%;
+    height: 80%;
+  }
+  .footer {
+    height: 20%
   }
 
   .header {
@@ -83,7 +86,7 @@ $darkTurquoise: #00717f;
     width: 25%;
     height: 30px;
   }
-  .main {
+  .wrapper {
     background-size: 15%;
   }
 }
@@ -112,7 +115,7 @@ $darkTurquoise: #00717f;
     color: $darkTurquoise;
     text-align: end;
   }
-  .main {
+  .wrapper {
     background-size: 25%;
   }
 
@@ -159,8 +162,38 @@ $darkTurquoise: #00717f;
     font-size: 1.4rem;
     color: $darkTurquoise;
   }
-  .main {
-    background-size: 25%;
+  .wrapper {
+    background-size: 65%;
+  }
+}
+
+
+
+
+
+/*       LP       */
+
+@media screen and (orientation: landscape) and (max-width: 730px){
+  .mobile-lpMain__title,
+  .mobile-lpMain__subTitle {
+    width: 100%;
+    padding-left: 10px;
+    text-align: center;
+
+  }
+  .mobile-lpMain__info {
+    display: none;
+  }
+  .footer {
+    color: #000;
+  }
+  .hideBR {
+    display: none;
+  }
+}
+@media screen and (min-width: 730px) and (max-width: 760px) {
+  .mobile-lpMain__info {
+    width: 50%;
   }
 }
 
