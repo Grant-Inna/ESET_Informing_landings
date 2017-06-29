@@ -395,13 +395,18 @@ h2, h3, h4 {
   text-align: center; }
 
 .mobile-subMain__info {
-  padding: 5px 1px;
+  border: none;
   line-height: 13px;
   font-size: 1.1rem; }
 
 .mobile-subMain__infoTitle {
   text-align: center;
   font-size: 1.2rem; }
+
+.mobile-subMain__infoText {
+  padding: 3px 1px;
+  border-top: 1px solid #d6dbe1;
+  border-bottom: 1px solid #d6dbe1; }
 
 /*                END OF SUB                      */
 /*                 ALREADY SUB                      */
