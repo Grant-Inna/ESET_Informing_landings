@@ -1,6 +1,14 @@
 $darkTurquoise: #00717f;
 
 
+@media screen and (max-height: 900px) and (min-width: 1300px) {
+  .wrapper {
+    width: 1200px;
+    max-width: 1200px;
+    min-height: 560px;
+    background-size: 25%;
+  }
+}
 
 @media screen and (min-width: 760px)  /* iPad Pro landscape · width: 1366px */
 { 
@@ -39,6 +47,21 @@ $darkTurquoise: #00717f;
   }
   .hideBR {
     display: none;
+  }
+  /*  SUB  */
+  .subMain__title {
+    color: $darkTurquoise;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .subMain__subTitle {
+    font-size: 2.5rem;
+  }
+  .subMain__info {
+    line-height: 20px;
+  }
+  .subscribe p {
+    font-size: 2rem;
   }
 
 }
@@ -220,7 +243,7 @@ $darkTurquoise: #00717f;
 /*       LP       */
 
 @media screen and (orientation: landscape) and (max-width: 730px){
-  .lpMain__title,
+  .lpMain__Title,
   .lpMain__subTitle {
     width: 100%;
     padding-left: 10px;

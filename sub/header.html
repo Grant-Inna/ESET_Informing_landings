@@ -1,41 +1,63 @@
 <!doctype html>
-<html lang="ru">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>pinkero</title>
-	<meta name="description" content="">
-	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript">if (top === self) { } else { window.top.location = self.location; }</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ESET</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript">if (top === self) { } else { window.top.location = self.location; }</script>
 </head>
-<body>	
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__inner">
-				<div class="header__col">
-					<div class="header__logo">
-						<img src="img/logo.png" alt="logo" class="header__img">
-					</div>
-				</div>
-				<div class="header__col">
-					<div class="header__title">
-					</div>
-				</div>
-			</div>
-		</header>
-		<main class="main">
-			<div class="main__inner">
-				<div class="buttons" id="buttons">
-					<button class="buttons__btn" onclick="document.getElementById('subscr-form').submit();return false;">
-						Смотреть
-					</button>
-				</div>
-			</div>
-		</main>
+<body>
 
-		<footer class="footer" id="footer">
-			<div class="hide__content">
-				<!--END HEADER-->
+
+<div class="container">
+    <div class="wrapper">
+        <header class="header">
+            <div class="headerLogo__wrapper">
+                <div class="headerLogo__logo"></div>
+                <div class="headerLogo__tagline">Enjoy Safer Technology</div>
+            </div>
+        </header>
+        <main class="main subMain">
+            <h2 class="subMain__title">Вы успешно подписались на расширенную версию антивируса</h2>
+            <h3 class="subMain__subTitle">Теперь ваше мобильное устройство под максимальной защитой:</h3>
+            <div class="subMain__info">
+                <p class="lpMain__item">Новый модуль <strong>Антивор</strong><sup class="someNew">new</sup> втоматически блокирует мобильный телефон или планшет в случае его кражи и осуществляет мониторинг местоположения утерянного устройства.
+                    Найдите устройство на карте в онлайн-режиме или посмотрите снимки со встроенной камеры в личном кабинете на my.eset.com.</p>
+                <p class="lpMain__item">Вы можете совершать любые онлайн-платежи с вашего устройства, не беспокоясь о сохранности банковских данных – об этом позаботится
+                    <strong>ESET NOD32 Mobile Security</strong>.
+                </p>
+                <p class="lpMain__item">Оградите себя от мобильного спама при помощи <strong>функции фильтрации вызовов и SMS</strong>.
+                    Настройте расписание приема звонков и SMS, чтобы вас не беспокоили в ночное время или в выходные дни.</p>
+            </div>
+
+            <div class="subscribe">
+                <a href="?" class="subMain__link">
+                    <div class="subMain__button">Скачать Приложение</div>
+                </a>
+
+                <p>ключ в смс</p>
+            </div>
+
+        </main>
+    </div>
+    <footer class="footer">
+
+        <span>
+						Стоимость 2 руб. с НДС за 1 день с основного счета МТС +7XXXXXXXXXX. Нажатием кнопки «<span id="template-button-name-pilot">Оформить подписку</span>»
+						вы осуществляете заказ доступа к услуге «https://www.esetnod32.ru/», подтверждаете ознакомление и согласие с условиями его предоставления,
+						<a href="http://static.mts.ru/uploadmsk/contents/1655/poryadok_predostavl_uslug_feb2013.pdf">Порядком предоставления контентных
+                            услуг ПАО «МТС»</a>, <a href="offer.html">правилами оказания услуги</a> контент-провайдером  Стрим, ООО. Оказывается МТС с привлечением  Стрим, ООО.
+						</span>
+
+    </footer>
+</div>
+
+
+</body>
+</html>
