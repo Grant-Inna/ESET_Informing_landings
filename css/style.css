@@ -529,7 +529,7 @@ h1, h2 {
     font-size: 1.4rem;
     color: #00717f; }
   .wrapper {
-    background-size: 65%; } }
+    background-size: 60%; } }
 
 /*       LP       */
 @media screen and (orientation: landscape) and (max-width: 730px) {
