@@ -2,16 +2,23 @@ $darkTurquoise: #00717f;
 
 
 
-@media screen and (min-width: 1300px)  /* iPad Pro landscape · width: 1366px */
+@media screen and (min-width: 760px)  /* iPad Pro landscape · width: 1366px */
 { 
+  h2 {
+    font-size: 3rem;
+  }
+  .subscribe__link, .subMain__link, .alreadySubMain__link {
+    height: 60px;
+    border-radius: 6px;
+  }
 
 }
 
 
-@media screen and (max-width: 1100px) and (orientation: landscape) /* iPad landscape + iPad Pro portrait · width: 1024px */
+@media screen and (min-width: 770px) and (max-width: 1100px) and (orientation: landscape) /* iPad landscape + iPad Pro portrait · width: 1024px */
 {
   .wrapper {
-    background-size: 20%;
+    background-size: 40%;
   }
 }
 
@@ -33,12 +40,15 @@ $darkTurquoise: #00717f;
     color: $darkTurquoise;
   }
   .wrapper {
-    background-size: 70%;
+    background-size: 65%;
   }
 }
 
 @media screen and (max-width: 740px)  /* iPhone 6 Plump landscape · width: 736px */
 {
+  .wrapper {
+    background-size: 25%;
+  }
 
   .headerLogo__wrapper {
     width: 85%;
@@ -60,6 +70,8 @@ $darkTurquoise: #00717f;
   .wrapper {
     width: 90%;
     height: 80%;
+
+    background-size: 60%;
   }
   .footer {
     height: 20%
@@ -72,6 +84,11 @@ $darkTurquoise: #00717f;
     width: 85%;
   }
 
+}
+@media screen and (max-width: 670px)  and (orientation: landscape) {
+  .wrapper {
+    background-size: 22%;
+  }
 }
 
 @media screen and (max-width: 570px) and (orientation: landscape) /* iPhone 5 landscape · width: 568px */
@@ -174,15 +191,15 @@ $darkTurquoise: #00717f;
 /*       LP       */
 
 @media screen and (orientation: landscape) and (max-width: 730px){
-  .mobile-lpMain__title,
-  .mobile-lpMain__subTitle {
+  .lpMain__title,
+  .lpMain__subTitle {
     width: 100%;
     padding-left: 10px;
     text-align: center;
 
   }
-  .mobile-lpMain__info,
-  .mobile-subMain__info {
+  .lpMain__info,
+  .subMain__info {
     display: none;
   }
   .footer {
@@ -193,7 +210,7 @@ $darkTurquoise: #00717f;
   }
 }
 @media screen and (min-width: 730px) and (max-width: 760px) {
-  .mobile-lpMain__info {
+  .lpMain__info {
     width: 50%;
   }
 }

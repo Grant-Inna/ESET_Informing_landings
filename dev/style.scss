@@ -80,12 +80,12 @@ p
   width: 80%;
   height: $height_Wrapper;
   background: url(../img/android1.png) right bottom no-repeat;
+  background-size: 40%;
+
   border-radius: 6px;
 
   margin: 0 auto;
   max-width: 1050px;
-
-  background-size: 75%;
 
   justify-content: space-between;
 }
@@ -196,7 +196,7 @@ p
   align-items: center;
 }
 
-.subscribe__link, .mobile-subMain__link, .mobile-alreadySubMain__link
+.subscribe__link, .subMain__link, .alreadySubMain__link
 {
   display: flex;
 
@@ -215,12 +215,12 @@ p
   justify-content: center;
   align-items: center;
 }
-.mobile-alreadySubMain__link {
+.alreadySubMain__link {
   background-color: $background_STARTColor;
   box-shadow: inset 3px 5px 20px 6px rgba(244, 245, 244, 0.4);;
 }
 
-.subscribe__link:hover, .mobile-subMain__link:hover
+.subscribe__link:hover, .subMain__link:hover
 {
   transition: -webkit-box-shadow .2s linear;
   transition:         box-shadow .2s linear;
@@ -229,7 +229,7 @@ p
   box-shadow: inset 2px -6px 20px 6px rgba(60, 78, 60, .25);
 }
 
-.subscribe__link:active, .mobile-subMain__link:active
+.subscribe__link:active, .subMain__link:active
 {
   transition: -webkit-box-shadow .2s linear;
   transition:         box-shadow .2s linear;
@@ -239,7 +239,7 @@ p
   box-shadow: inset 0 0 13px 6px rgba(47, 53, 47, .37);
 }
 
-.subscribe__title, .mobile-subMain__button
+.subscribe__title, .subMain__button
 {
   font-size: 22px !important;
 
@@ -262,22 +262,22 @@ p
   font-size: 18px !important;
 }
 
-/*                 MOBILE-LP                      */
+/*                 LP                      */
 
-.mobile-lpMain {
+.lpMain {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.mobile-lpMain__title {
+.lpMain__title {
   margin: 5px 3px;
   color: $darkTurquoise;
   text-align: center;
   font-size: 1.7rem;
 }
-.mobile-lpMain__subTitle,
-.mobile-subMain__Title {
+.lpMain__subTitle,
+.subMain__Title {
   color: rgb(0, 127, 192);
   text-align: center;
   font-size: 1.4rem;
@@ -286,26 +286,26 @@ h2, h3, h4 {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
-.mobile-lpMain__info,
-.mobile-subMain__info {
+.lpMain__info,
+.subMain__info {
   width: 96%;
   margin: 0 auto;
   border-top: 1px solid #d6dbe1;
   border-bottom: 1px solid #d6dbe1;
 }
-.mobile-lpMain__info {
+.lpMain__info {
   color: $dark-matedBlue;
 }
-.mobile-lpMain__item strong {
+.lpMain__item strong {
   color: #000;
 }
-.mobile-lpMain__item,
-.mobile-subMain__subTitle {
+.lpMain__item,
+.subMain__subTitle {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   color: #363940;
 }
-.mobile-lpMain__item:before {
+.lpMain__item:before {
   content: '\02713';
   color: #68b72d;
   font-size: 1.3rem;
@@ -325,33 +325,33 @@ h2, h3, h4 {
 
 /*                 SUB                      */
 
-.mobile-subMain {
+.subMain {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.mobile-subMain__title {
+.subMain__title {
   color: rgb(0, 127, 192);
   text-align: center;
   font-size: 1.4rem;
 }
-.mobile-subMain__subTitle {
+.subMain__subTitle {
   color: $dark-matedBlue;
   width: 96%;
   margin: 0 auto;
   text-align: center;
 }
-.mobile-subMain__info {
+.subMain__info {
   border: none;
   line-height: 13px;
   font-size: 1.1rem;
 }
-.mobile-subMain__infoTitle {
+.subMain__infoTitle {
   text-align: center;
     font-size: 1.2rem;
 }
-.mobile-subMain__infoText {
+.subMain__infoText {
   padding: 3px 1px;
   border-top: 1px solid #d6dbe1;
   border-bottom: 1px solid #d6dbe1;
@@ -362,17 +362,17 @@ h2, h3, h4 {
 
 /*                 ALREADY SUB                      */
 
-.mobile-alreadySubMain {
+.alreadySubMain {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.mobile-alreadySubMain__title {
+.alreadySubMain__title {
   color: $darkTurquoise;
   text-align: center;
 }
-.mobile-alreadySubMain__info {
+.alreadySubMain__info {
   color: $dark-matedBlue;
   margin-top: 5%;
   font-size: 1.5rem;
