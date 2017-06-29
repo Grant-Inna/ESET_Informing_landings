@@ -5,9 +5,9 @@ Landings testing repo
 
 ### Pages
 
-[Info](https://grant-inna.github.io/ESET_Informing_landings/lp/)
+[Info (mobile)](https://grant-inna.github.io/ESET_Informing_landings/lp/header.mobile.html)
 
-[Success subscribe](https://grant-inna.github.io/ESET_Informing_landings/sub/)
+[Success subscribe (mobile)](https://grant-inna.github.io/ESET_Informing_landings/sub/header.mobile.html)
 
-[Already have subscribe](https://grant-inna.github.io/ESET_Informing_landings/alreadysub/)
+[Already have subscribe (mobile)](https://grant-inna.github.io/ESET_Informing_landings/alreadysub/header.mobile.html)
 
