@@ -196,7 +196,7 @@ p
   align-items: center;
 }
 
-.subscribe__link, .mobile-subMain__link
+.subscribe__link, .mobile-subMain__link, .mobile-alreadySubMain__link
 {
   display: flex;
 
@@ -214,6 +214,10 @@ p
 
   justify-content: center;
   align-items: center;
+}
+.mobile-alreadySubMain__link {
+  background-color: $background_STARTColor;
+  box-shadow: inset 3px 5px 20px 6px rgba(244, 245, 244, 0.4);;
 }
 
 .subscribe__link:hover, .mobile-subMain__link:hover
@@ -361,7 +365,7 @@ h2, h3, h4 {
 .mobile-alreadySubMain {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 .mobile-alreadySubMain__title {
