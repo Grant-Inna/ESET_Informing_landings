@@ -92,14 +92,14 @@ $darkTurquoise: #00717f;
     color: $darkTurquoise;
   }
   .wrapper {
-    background-size: 65%;
+    background-size: 68%;
   }
 }
 
-@media screen and (max-width: 740px)  /* iPhone 6 Plump landscape · width: 736px */
+@media screen and (max-width: 740px) and (orientation: landscape) /* iPhone 6 Plump landscape · width: 736px */
 {
   .wrapper {
-    background-size: 25%;
+    background-size: 30%;
   }
 
   .headerLogo__wrapper {
@@ -121,9 +121,9 @@ $darkTurquoise: #00717f;
 {
   .wrapper {
     width: 90%;
-    height: 80%;
+    height: 90%;
 
-    background-size: 60%;
+    background-size: 75%;
   }
   .footer {
     height: 20%
@@ -139,7 +139,7 @@ $darkTurquoise: #00717f;
 }
 @media screen and (max-width: 670px)  and (orientation: landscape) {
   .wrapper {
-    background-size: 22%;
+    background-size: 25%;
   }
 }
 
@@ -156,14 +156,14 @@ $darkTurquoise: #00717f;
     height: 30px;
   }
   .wrapper {
-    background-size: 15%;
+    background-size: 20%;
   }
 }
 
 @media screen and (max-width: 480px) and (orientation: landscape) /* iPhone 4 landscape · width: 480px */
 {
   .wrapper {
-    height: 70%;
+    height: 85%;
   }
   .footer {
     height: 30%
@@ -185,7 +185,7 @@ $darkTurquoise: #00717f;
     text-align: end;
   }
   .wrapper {
-    background-size: 25%;
+    background-size: 30%;
   }
 
 }
@@ -232,7 +232,7 @@ $darkTurquoise: #00717f;
     color: $darkTurquoise;
   }
   .wrapper {
-    background-size: 60%;
+    background-size: 75%;
   }
 }
 
