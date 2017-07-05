@@ -431,7 +431,9 @@ h2, h3, h4 {
 
 .alreadySubMain__title {
   color: #00717f;
-  text-align: center; }
+  text-align: center;
+  width: 96%;
+  margin: 0 auto; }
 
 .alreadySubMain__info {
   color: #385f7f;
