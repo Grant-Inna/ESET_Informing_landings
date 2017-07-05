@@ -531,7 +531,7 @@ h2, h3, h4 {
 @media screen and (max-width: 670px) {
   .wrapper {
     width: 90%;
-    height: 90%;
+    height: 95%;
     background-size: 75%; }
   .footer {
     height: 20%; }
@@ -542,7 +542,8 @@ h2, h3, h4 {
 
 @media screen and (max-width: 670px) and (orientation: landscape) {
   .wrapper {
-    background-size: 25%; } }
+    background-size: 25%;
+    height: 95%; } }
 
 @media screen and (max-width: 570px) and (orientation: landscape) {
   .header {
@@ -553,7 +554,8 @@ h2, h3, h4 {
     width: 25%;
     height: 30px; }
   .wrapper {
-    background-size: 20%; } }
+    background-size: 20%;
+    height: 95%; } }
 
 @media screen and (max-width: 480px) and (orientation: landscape) {
   .wrapper {
@@ -576,7 +578,8 @@ h2, h3, h4 {
     color: #00717f;
     text-align: end; }
   .wrapper {
-    background-size: 30%; } }
+    background-size: 30%;
+    height: 95%; } }
 
 @media screen and (max-width: 415px) {
   .headerLogo__wrapper {

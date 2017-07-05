@@ -121,7 +121,7 @@ $darkTurquoise: #00717f;
 {
   .wrapper {
     width: 90%;
-    height: 90%;
+    height: 95%;
 
     background-size: 75%;
   }
@@ -140,6 +140,7 @@ $darkTurquoise: #00717f;
 @media screen and (max-width: 670px)  and (orientation: landscape) {
   .wrapper {
     background-size: 25%;
+    height: 95%
   }
 }
 
@@ -157,6 +158,7 @@ $darkTurquoise: #00717f;
   }
   .wrapper {
     background-size: 20%;
+    height: 95%
   }
 }
 
@@ -186,6 +188,7 @@ $darkTurquoise: #00717f;
   }
   .wrapper {
     background-size: 30%;
+    height: 95%
   }
 
 }
